@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="300dp"
+    android:layout_height="300dp">
+<TextView
+    android:gravity="center"
+    android:text="Choose Type of Parking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+      <CheckBox
+          android:gravity="center"
+          android:id="@+id/park_ck"
+          android:text="Parking Recommendations"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <CheckBox
+          android:gravity="center"
+          android:text="Garage Parking"
+          android:id="@+id/gara_ck"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+      <CheckBox
+          android:gravity="center"
+          android:id="@+id/ipark_ck"
+          android:text="Individual Parking"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/sub_park"
+            android:text="Choose"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/negative"
+            android:text="Cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

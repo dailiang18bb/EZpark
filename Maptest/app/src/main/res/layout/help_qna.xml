@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="12dp">
+    <TextView
+        android:text="@string/q_amp_a"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:text="@string/_8226_why_i_can_t_delete_my_account_as_a_garage_owner"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="As a garage owner, you can only delete you account by contact the custom service, Email us at support@ezpark.com"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:text="@string/_8226_what_is_the_time_validity_of_the_on_street_parking_recommendation"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="You will receive the recommendation which have been reported from other users within 10 minutes."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"/>
+
+    <TextView
+        android:text="@string/_8226_what_is_the_radius_of_my_searching"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+    <TextView
+        android:text="Your searching radius is your current view on the map, you can change the radius by zoom in/out on the map."
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="12dp"/>
+
+    <Button
+        android:id="@+id/backbtnhelp"
+        android:layout_width="wrap_content"
+        android:text="Back"
+        android:textSize="20dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

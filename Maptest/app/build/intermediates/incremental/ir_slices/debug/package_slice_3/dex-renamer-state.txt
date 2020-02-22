@@ -1,0 +1,4 @@
+#Tue May 14 18:17:13 EDT 2019
+base.0=C\:\\Users\\ameya\\OneDrive\\Desktop\\Maptest\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex

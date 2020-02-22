@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Ask your Question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:text="Question:"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textSize="20dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="Type your Question here"
+        android:id="@+id/et_quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Contact Details:"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textSize="20dp"
+        android:inputType="text"
+        android:gravity="center"
+        android:hint="Type your contact details here"
+        android:id="@+id/ot_quest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:gravity="center"
+        android:id="@+id/sub_quest_btn"
+        android:text="Submit"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:gravity="center"
+        android:id="@+id/bkbtn"
+        android:text="Return to Help Menu"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
